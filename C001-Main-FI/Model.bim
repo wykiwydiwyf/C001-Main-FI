@@ -1,0 +1,678 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1500,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "type": "structured",
+        "name": "SQL/shai351a;MasterData",
+        "connectionDetails": {
+          "protocol": "tds",
+          "address": {
+            "server": "shai351a",
+            "database": "MasterData"
+          },
+          "authentication": null,
+          "query": null
+        },
+        "credential": {
+          "AuthenticationKind": "Windows",
+          "Username": "AD005\\Z0049NCU-S01",
+          "EncryptConnection": false
+        }
+      }
+    ],
+    "tables": [
+      {
+        "name": "tb_SAP_material_basic",
+        "columns": [
+          {
+            "name": "mat_no",
+            "dataType": "string",
+            "sourceColumn": "mat_no"
+          },
+          {
+            "name": "old_mat_no",
+            "dataType": "string",
+            "sourceColumn": "old_mat_no"
+          },
+          {
+            "name": "mat_description",
+            "dataType": "string",
+            "sourceColumn": "mat_description"
+          },
+          {
+            "name": "mat_type",
+            "dataType": "string",
+            "sourceColumn": "mat_type"
+          },
+          {
+            "name": "industry_sector",
+            "dataType": "string",
+            "sourceColumn": "industry_sector"
+          },
+          {
+            "name": "mat_group",
+            "dataType": "string",
+            "sourceColumn": "mat_group"
+          },
+          {
+            "name": "basic_uom",
+            "dataType": "string",
+            "sourceColumn": "basic_uom"
+          },
+          {
+            "name": "po_uom",
+            "dataType": "string",
+            "sourceColumn": "po_uom"
+          },
+          {
+            "name": "labor_office",
+            "dataType": "string",
+            "sourceColumn": "labor_office"
+          },
+          {
+            "name": "pv_key",
+            "dataType": "string",
+            "sourceColumn": "pv_key"
+          },
+          {
+            "name": "gross_weight",
+            "dataType": "double",
+            "sourceColumn": "gross_weight"
+          },
+          {
+            "name": "wunit",
+            "dataType": "string",
+            "sourceColumn": "wunit"
+          },
+          {
+            "name": "net_weight",
+            "dataType": "double",
+            "sourceColumn": "net_weight"
+          },
+          {
+            "name": "wunit_1",
+            "dataType": "string",
+            "sourceColumn": "wunit_1"
+          },
+          {
+            "name": "wunit_2",
+            "dataType": "string",
+            "sourceColumn": "wunit_2"
+          },
+          {
+            "name": "storage_conditions",
+            "dataType": "string",
+            "sourceColumn": "storage_conditions"
+          },
+          {
+            "name": "temp",
+            "dataType": "string",
+            "sourceColumn": "temp"
+          },
+          {
+            "name": "TGroup",
+            "dataType": "string",
+            "sourceColumn": "TGroup"
+          },
+          {
+            "name": "Haz_mat_no",
+            "dataType": "string",
+            "sourceColumn": "Haz_mat_no"
+          },
+          {
+            "name": "division",
+            "dataType": "string",
+            "sourceColumn": "division"
+          },
+          {
+            "name": "EAN_number",
+            "dataType": "string",
+            "sourceColumn": "EAN_number"
+          },
+          {
+            "name": "EAN_upc",
+            "dataType": "string",
+            "sourceColumn": "EAN_upc"
+          },
+          {
+            "name": "CAD",
+            "dataType": "string",
+            "sourceColumn": "CAD"
+          },
+          {
+            "name": "QM",
+            "dataType": "string",
+            "sourceColumn": "QM"
+          },
+          {
+            "name": "var_po_active",
+            "dataType": "string",
+            "sourceColumn": "var_po_active"
+          },
+          {
+            "name": "GrPMt",
+            "dataType": "string",
+            "sourceColumn": "GrPMt"
+          },
+          {
+            "name": "auth_group",
+            "dataType": "string",
+            "sourceColumn": "auth_group"
+          },
+          {
+            "name": "cross_plant_mat_status",
+            "dataType": "string",
+            "sourceColumn": "cross_plant_mat_status"
+          },
+          {
+            "name": "valid_from",
+            "dataType": "dateTime",
+            "sourceColumn": "valid_from"
+          },
+          {
+            "name": "min_shelf_life",
+            "dataType": "double",
+            "sourceColumn": "min_shelf_life"
+          },
+          {
+            "name": "tax_cl",
+            "dataType": "string",
+            "sourceColumn": "tax_cl"
+          },
+          {
+            "name": "total_shelf_life",
+            "dataType": "double",
+            "sourceColumn": "total_shelf_life"
+          },
+          {
+            "name": "period_flag",
+            "dataType": "string",
+            "sourceColumn": "period_flag"
+          },
+          {
+            "name": "market_release",
+            "dataType": "string",
+            "sourceColumn": "market_release"
+          },
+          {
+            "name": "country_restriction",
+            "dataType": "string",
+            "sourceColumn": "country_restriction"
+          },
+          {
+            "name": "blocked",
+            "dataType": "string",
+            "sourceColumn": "blocked"
+          },
+          {
+            "name": "del_flag_client_lev",
+            "dataType": "string",
+            "sourceColumn": "del_flag_client_lev"
+          },
+          {
+            "name": "plant_product_group",
+            "dataType": "string",
+            "sourceColumn": "plant_product_group"
+          },
+          {
+            "name": "dummy_supplier_flag",
+            "dataType": "string",
+            "sourceColumn": "dummy_supplier_flag"
+          },
+          {
+            "name": "EAN_category",
+            "dataType": "string",
+            "sourceColumn": "EAN_category"
+          },
+          {
+            "name": "last_change_date",
+            "dataType": "dateTime",
+            "sourceColumn": "last_change_date"
+          },
+          {
+            "name": "changed_by",
+            "dataType": "string",
+            "sourceColumn": "changed_by"
+          },
+          {
+            "name": "opr_date",
+            "dataType": "dateTime",
+            "sourceColumn": "opr_date"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/shai351a;MasterData\",",
+                "    dbo_tb_SAP_material_basic = Source{[Schema=\"dbo\",Item=\"tb_SAP_material_basic\"]}[Data]",
+                "in",
+                "    dbo_tb_SAP_material_basic"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_SAP_material_plant",
+        "columns": [
+          {
+            "name": "mat_no",
+            "dataType": "string",
+            "sourceColumn": "mat_no"
+          },
+          {
+            "name": "mat_description",
+            "dataType": "string",
+            "sourceColumn": "mat_description"
+          },
+          {
+            "name": "plant",
+            "dataType": "string",
+            "sourceColumn": "plant"
+          },
+          {
+            "name": "del_flag",
+            "dataType": "string",
+            "sourceColumn": "del_flag"
+          },
+          {
+            "name": "plant_mat_status",
+            "dataType": "string",
+            "sourceColumn": "plant_mat_status"
+          },
+          {
+            "name": "valid_from",
+            "dataType": "dateTime",
+            "sourceColumn": "valid_from"
+          },
+          {
+            "name": "ABC_flag",
+            "dataType": "string",
+            "sourceColumn": "ABC_flag"
+          },
+          {
+            "name": "purchasing_group",
+            "dataType": "string",
+            "sourceColumn": "purchasing_group"
+          },
+          {
+            "name": "issue_unit",
+            "dataType": "string",
+            "sourceColumn": "issue_unit"
+          },
+          {
+            "name": "MRP_profile",
+            "dataType": "string",
+            "sourceColumn": "MRP_profile"
+          },
+          {
+            "name": "MRP_type",
+            "dataType": "string",
+            "sourceColumn": "MRP_type"
+          },
+          {
+            "name": "MRP_controller",
+            "dataType": "string",
+            "sourceColumn": "MRP_controller"
+          },
+          {
+            "name": "plan_del_time",
+            "dataType": "double",
+            "sourceColumn": "plan_del_time"
+          },
+          {
+            "name": "GR_proc_time",
+            "dataType": "double",
+            "sourceColumn": "GR_proc_time"
+          },
+          {
+            "name": "period_flag",
+            "dataType": "string",
+            "sourceColumn": "period_flag"
+          },
+          {
+            "name": "assembly_scrap",
+            "dataType": "double",
+            "sourceColumn": "assembly_scrap"
+          },
+          {
+            "name": "lot_size",
+            "dataType": "string",
+            "sourceColumn": "lot_size"
+          },
+          {
+            "name": "procurement_type",
+            "dataType": "string",
+            "sourceColumn": "procurement_type"
+          },
+          {
+            "name": "special_procurement",
+            "dataType": "string",
+            "sourceColumn": "special_procurement"
+          },
+          {
+            "name": "reorder_point",
+            "dataType": "double",
+            "sourceColumn": "reorder_point"
+          },
+          {
+            "name": "bun",
+            "dataType": "string",
+            "sourceColumn": "bun"
+          },
+          {
+            "name": "safety_stock",
+            "dataType": "double",
+            "sourceColumn": "safety_stock"
+          },
+          {
+            "name": "bun_1",
+            "dataType": "string",
+            "sourceColumn": "bun_1"
+          },
+          {
+            "name": "min_lot_size",
+            "dataType": "double",
+            "sourceColumn": "min_lot_size"
+          },
+          {
+            "name": "bun_2",
+            "dataType": "string",
+            "sourceColumn": "bun_2"
+          },
+          {
+            "name": "max_lot_size",
+            "dataType": "double",
+            "sourceColumn": "max_lot_size"
+          },
+          {
+            "name": "bun_3",
+            "dataType": "string",
+            "sourceColumn": "bun_3"
+          },
+          {
+            "name": "fix_lot_size",
+            "dataType": "double",
+            "sourceColumn": "fix_lot_size"
+          },
+          {
+            "name": "bun_4",
+            "dataType": "string",
+            "sourceColumn": "bun_4"
+          },
+          {
+            "name": "round_val",
+            "dataType": "double",
+            "sourceColumn": "round_val"
+          },
+          {
+            "name": "bun_5",
+            "dataType": "string",
+            "sourceColumn": "bun_5"
+          },
+          {
+            "name": "max_level",
+            "dataType": "double",
+            "sourceColumn": "max_level"
+          },
+          {
+            "name": "bun_6",
+            "dataType": "string",
+            "sourceColumn": "bun_6"
+          },
+          {
+            "name": "dep_req_id",
+            "dataType": "string",
+            "sourceColumn": "dep_req_id"
+          },
+          {
+            "name": "storage_cost",
+            "dataType": "string",
+            "sourceColumn": "storage_cost"
+          },
+          {
+            "name": "req_group_flag",
+            "dataType": "string",
+            "sourceColumn": "req_group_flag"
+          },
+          {
+            "name": "mixed_MRP_flag",
+            "dataType": "string",
+            "sourceColumn": "mixed_MRP_flag"
+          },
+          {
+            "name": "SMKey",
+            "dataType": "string",
+            "sourceColumn": "SMKey"
+          },
+          {
+            "name": "backflush_flag",
+            "dataType": "string",
+            "sourceColumn": "backflush_flag"
+          },
+          {
+            "name": "production_supervisor",
+            "dataType": "string",
+            "sourceColumn": "production_supervisor"
+          },
+          {
+            "name": "process_time",
+            "dataType": "double",
+            "sourceColumn": "process_time"
+          },
+          {
+            "name": "setup_time",
+            "dataType": "double",
+            "sourceColumn": "setup_time"
+          },
+          {
+            "name": "interop_time",
+            "dataType": "double",
+            "sourceColumn": "interop_time"
+          },
+          {
+            "name": "base_quantity",
+            "dataType": "double",
+            "sourceColumn": "base_quantity"
+          },
+          {
+            "name": "bun_7",
+            "dataType": "string",
+            "sourceColumn": "bun_7"
+          },
+          {
+            "name": "in_house_time",
+            "dataType": "double",
+            "sourceColumn": "in_house_time"
+          },
+          {
+            "name": "OTol",
+            "dataType": "double",
+            "sourceColumn": "OTol"
+          },
+          {
+            "name": "UTol",
+            "dataType": "double",
+            "sourceColumn": "UTol"
+          },
+          {
+            "name": "TRLT",
+            "dataType": "double",
+            "sourceColumn": "TRLT"
+          },
+          {
+            "name": "post_stock_flag",
+            "dataType": "string",
+            "sourceColumn": "post_stock_flag"
+          },
+          {
+            "name": "control_key",
+            "dataType": "string",
+            "sourceColumn": "control_key"
+          },
+          {
+            "name": "doc_req_flag",
+            "dataType": "string",
+            "sourceColumn": "doc_req_flag"
+          },
+          {
+            "name": "batch_manage_flag",
+            "dataType": "string",
+            "sourceColumn": "batch_manage_flag"
+          },
+          {
+            "name": "avail_check",
+            "dataType": "string",
+            "sourceColumn": "avail_check"
+          },
+          {
+            "name": "comm_code",
+            "dataType": "string",
+            "sourceColumn": "comm_code"
+          },
+          {
+            "name": "country_origin",
+            "dataType": "string",
+            "sourceColumn": "country_origin"
+          },
+          {
+            "name": "exp_imp_mat_group",
+            "dataType": "string",
+            "sourceColumn": "exp_imp_mat_group"
+          },
+          {
+            "name": "profit_center",
+            "dataType": "string",
+            "sourceColumn": "profit_center"
+          },
+          {
+            "name": "ppc_plan_calendar",
+            "dataType": "string",
+            "sourceColumn": "ppc_plan_calendar"
+          },
+          {
+            "name": "plan_time_fence",
+            "dataType": "double",
+            "sourceColumn": "plan_time_fence"
+          },
+          {
+            "name": "version_flag",
+            "dataType": "string",
+            "sourceColumn": "version_flag"
+          },
+          {
+            "name": "cost_lot_size",
+            "dataType": "double",
+            "sourceColumn": "cost_lot_size"
+          },
+          {
+            "name": "bun_8",
+            "dataType": "string",
+            "sourceColumn": "bun_8"
+          },
+          {
+            "name": "spe_proc_type",
+            "dataType": "string",
+            "sourceColumn": "spe_proc_type"
+          },
+          {
+            "name": "issue_storage_location",
+            "dataType": "string",
+            "sourceColumn": "issue_storage_location"
+          },
+          {
+            "name": "MRP_group",
+            "dataType": "string",
+            "sourceColumn": "MRP_group"
+          },
+          {
+            "name": "production_unit",
+            "dataType": "string",
+            "sourceColumn": "production_unit"
+          },
+          {
+            "name": "QM_flag",
+            "dataType": "string",
+            "sourceColumn": "QM_flag"
+          },
+          {
+            "name": "sn_profile",
+            "dataType": "string",
+            "sourceColumn": "sn_profile"
+          },
+          {
+            "name": "plan_strategy_group",
+            "dataType": "string",
+            "sourceColumn": "plan_strategy_group"
+          },
+          {
+            "name": "sloc_ex_proc",
+            "dataType": "string",
+            "sourceColumn": "sloc_ex_proc"
+          },
+          {
+            "name": "bulk_mat_flag",
+            "dataType": "string",
+            "sourceColumn": "bulk_mat_flag"
+          },
+          {
+            "name": "prod_sched_profile",
+            "dataType": "string",
+            "sourceColumn": "prod_sched_profile"
+          },
+          {
+            "name": "valuation_category",
+            "dataType": "string",
+            "sourceColumn": "valuation_category"
+          },
+          {
+            "name": "last_change_date",
+            "dataType": "dateTime",
+            "sourceColumn": "last_change_date"
+          },
+          {
+            "name": "changed_by",
+            "dataType": "string",
+            "sourceColumn": "changed_by"
+          },
+          {
+            "name": "opr_date",
+            "dataType": "dateTime",
+            "sourceColumn": "opr_date"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/shai351a;MasterData\",",
+                "    dbo_tb_SAP_material_plant = Source{[Schema=\"dbo\",Item=\"tb_SAP_material_plant\"]}[Data]",
+                "in",
+                "    dbo_tb_SAP_material_plant"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "600"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
